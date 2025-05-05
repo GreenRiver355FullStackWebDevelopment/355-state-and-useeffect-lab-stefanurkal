@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  background-color: yellowgreen;
+  color: black;
+  font-family: "Helvetica", sans-serif;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.cards {
+  background-color: darkslategray ;
+  padding: 30px 20px;
+  border-radius: 12px;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.card:hover {
+  background-color: yellow;
+  color: black;
+}
